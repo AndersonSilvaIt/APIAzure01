@@ -25,6 +25,6 @@ jobs:
     - name: Deploy to Azure
       uses: azure/webapps-deploy@v2
       with:
-        app-name: dbr-api-01
+        app-name: azure-api-01
         publish-profile: ${{ secrets.DEPLOY_API_AZURE }}
         package: ./publish
